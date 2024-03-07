@@ -1,21 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gilroy';
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#page1{
+
+#page1 {
     width: 100%;
     height: 100vh;
     background-color: #dadada;
     position: relative;
 }
-#page1 video{
+
+#page1 video {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    position: absolute;
+}
+
+#page1-content {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    position: relative;
+    z-index: 2;
+    color: #ffff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 3vw;
+}
+nav h3{
+    font-size: 1.4vw;
+}
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
 }
