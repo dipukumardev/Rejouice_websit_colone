@@ -17,7 +17,12 @@ body {
     background-color: #dadada;
     position: relative;
 }
-
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #BF492C;
+    border-radius: 50%;
+}
 #page1 video {
     height: 100%;
     width: 100%;
@@ -32,6 +37,11 @@ body {
     position: relative;
     z-index: 2;
     color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5vw;
 }
 nav{
     display: flex;
@@ -42,8 +52,17 @@ nav{
 }
 nav h3{
     font-size: 1.4vw;
+    font-weight: 100;
 }
 nav h4{
     font-size: 1.4vw;
     font-weight: 100;
+}
+#page1-content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27vw;
+    font-weight: 100;
+}
+#page1-content h1 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
