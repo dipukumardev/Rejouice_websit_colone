@@ -20,7 +20,7 @@ body {
 #cursor{
     height: 7.5vw;
     width: 7.5vw;
-    background-color: #BF492C;
+    background-color: #ff5f38;
     border-radius: 50%;
     position: fixed;
     z-index: 9;
@@ -51,7 +51,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 5vw;
+    padding-bottom: 1vw;
 }
 nav{
     display: flex;
@@ -70,7 +70,7 @@ nav h4{
 }
 #page1-content h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 27vw;
+    font-size: 33vw;
     font-weight: 100;
 }
 #page1-content h1 span{
